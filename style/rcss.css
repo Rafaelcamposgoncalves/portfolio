@@ -1,0 +1,213 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background: url('../img/rafael.jpg') no-repeat fixed;
+	background-size: cover;
+	/*margin-right: 55px;*/
+}
+header{
+	height: 100%;
+}
+
+
+.rcss-redesocial{
+	position: fixed;
+	right: 0px;
+	top: 0%;
+	height: 100%;
+	min-width: 55px;
+	padding-top: 30px;
+	background-color: #fff;
+	font-size: 1.5em;
+	text-align: left;
+	z-index: 2;
+	box-shadow: 40px 0px 50px 10px #000;
+}
+
+.rcss-whatsapp{
+	display: none;
+	float: left;
+	font-size: 0.7em;
+	padding: 0px 30px;
+}
+
+.rcss-redesociallink{
+	color:#555;
+	padding-left: 15px;
+}
+.rcss-redesociallink:hover{
+	color:#aa1;
+	padding-left: 11px;
+	border-left: 4px #aa1 solid;
+}
+
+.rcss-voltar{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding: 2px;
+	width: 54px;
+	height: 40px;
+	background-color:#aa1;
+	color:#fff;
+	border-radius: 5px 5px 0px 0px;
+	text-align: center;
+	z-index: 3;
+}
+.rcss-header{
+	margin-top: -160px;
+	padding-top: 124px;
+	height: 100%;
+}
+.rcss-brand{
+	background: url('../img/rclogo.png') no-repeat;
+	width: 32px;
+	height: 33px;
+}
+.rcss-navbar{
+
+	padding: 40px 10px;
+	text-align: : right;
+	/*box-shadow: 0px 0px 50px -20px #000;*/
+	z-index: 1;
+}
+
+.rcss-navbar li{
+	margin-left: 30px;
+}
+
+.rcss-navbar a{
+	text-decoration: none;
+	border: 0px;
+	color: #aa1;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	border-top: 1px transparent solid;
+}
+
+
+.rcss-navbar a:hover{
+	border-top: 1px #aa1 solid;
+}
+.rcss-container{
+
+	font-family: 'K2D', sans-serif;
+	height: 100%;
+
+}
+
+.rcss-container h1{
+	font-size: 5em;
+	color: #555;
+} 
+
+.rcss-quemsou, .rcss-habilidades, .rcss-portfolio{
+	background-color: #fff;
+}
+p{
+	color: #777;
+	font-size: 1.5em;
+}
+
+.rcss-habilidades p{
+	color: #555;
+}
+
+.rcss-portfolio{
+	padding: 30px;
+}
+.rcss-quemsou h1, .rcss-habilidades h1, .rcss-portfolio h1 {
+	color: #aa1;
+	border-left: 20px #aa1 solid;
+}
+
+.rcss-portfolio-descricao-escondido{
+	display: none;
+	text-align: left;
+	padding: 50px;
+}
+
+.rcss-footer{
+	background-color: #771;
+	opacity: 0.95;
+	color: #fff;
+	padding: 50px;
+}
+.rcss-navfooter a{
+	color: #fff;
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+.rcss-navfooter a:hover{
+	text-decoration: underline;
+}
+
+.rcss-footer hr{
+	border-color: #fff;
+}
+
+#contato{
+	border-left: 1px #fff solid;
+	padding-left: 60px;
+}
+
+#contato a{
+	color: #fff;
+	font-size: 1em;
+}
+
+
+.rcss-redesocialfooter{
+	text-align: center;
+	font-size: 1.7em;
+}
+.rcss-redesocialfooter a{
+	color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+
+	.rcss-portfolio-descricao{
+		display: none;
+	}
+	.rcss-portfolio p{
+		text-align: center;
+	}
+	.rcss-portfolio-descricao-escondido{
+		display: block;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.rcss-quemsou{
+		padding: 50px 0px 50px 0px;
+		border: ;
+	}
+	.rcss-navcollapse{
+		background-color: rgba(255,255,255,0.7);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+	}
+	.rcss-navcollapse li{
+		margin-top: 30px;
+	}
+	
+	.rcss-header{
+	margin-top: 50px;
+	padding-top: 0;
+	height: 100%;
+}
+
+}
+@media only screen and (max-width: 575px) {
+
+	.rcss-quemsou h1, .rcss-habilidades h1, .rcss-portfolio h1{
+		font-size: 3.5em;
+	}
+}
