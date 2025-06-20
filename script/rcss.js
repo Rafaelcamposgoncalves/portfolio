@@ -130,7 +130,7 @@
 		
 		$(document).on('scroll', function(){
 			var opacity = ($(this).scrollTop() / $(window).height());
-			$('#topo').css('background-color', 'rgba(0,0,0,' + opacity + ')');
+			$('#topo').css('background-color', 'rgba(255,255,255,' + opacity + ')');
 		})		
 		
 		$(document).ready(function(){
